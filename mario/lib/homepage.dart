@@ -26,13 +26,13 @@ class _HomePageState extends State<HomePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       MyButton(
-                        child: Icon(Icons.arrow_back),
+                        child: Icon(Icons.arrow_back, color: Colors.white),
                       ),
                       MyButton(
-                        child: Icon(Icons.arrow_upward),
+                        child: Icon(Icons.arrow_upward, color: Colors.white),
                       ),
                       MyButton(
-                        child: Icon(Icons.arrow_forward),
+                        child: Icon(Icons.arrow_forward, color: Colors.white),
                       )
                     ]))),
       ],
