@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
+import 'package:mario/button.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -24,23 +25,14 @@ class _HomePageState extends State<HomePage> {
                 child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Expanded(
-                        child: Container(
-                          color: Colors.brown[300],
-                          child: Icon(Icons.arrow_back),
-                        ),
+                      MyButton(
+                        child: Icon(Icons.arrow_back),
                       ),
-                      Expanded(
-                        child: Container(
-                          color: Colors.brown[300],
-                          child: Icon(Icons.arrow_upward),
-                        ),
+                      MyButton(
+                        child: Icon(Icons.arrow_upward),
                       ),
-                      Expanded(
-                        child: Container(
-                          color: Colors.brown[300],
-                          child: Icon(Icons.arrow_forward),
-                        ),
+                      MyButton(
+                        child: Icon(Icons.arrow_forward),
                       )
                     ]))),
       ],
